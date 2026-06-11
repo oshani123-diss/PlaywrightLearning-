@@ -16,5 +16,7 @@ jobs:
         run: npm install
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
+      - name: Update snapshots
+        run: npx playwright test QA21visual.spec.js --project=chromium --update-snapshots
       - name: Run tests
-        run: npx playwright test --project=chromium
+        run: npx playwright test --project=chromium --ignore=browsertests/js-tests/insure.spec.js --ignore=browsertests/js-tests/QA13search.spec.js

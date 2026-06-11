@@ -1,0 +1,2 @@
+2026-06-05 18:46:43 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 18:46:47 [info]: Error message received: "Login failed"

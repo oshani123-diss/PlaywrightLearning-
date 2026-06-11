@@ -1,0 +1,4 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","27601","Signin with invalid credentials","signin","2026-06-05","passed","2026-06-05","Verify Sign In Functionality","","",""
+"","105673","Verifying Create Insurer Functionality","chromium","2026-06-05","failed","2026-06-05","","","",""
+"","74745","Signin with valid credentials","signin","2026-06-05","passed","2026-06-05","Verify Sign In Functionality","","",""

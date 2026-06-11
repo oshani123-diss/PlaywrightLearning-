@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p .github/workflows)"
+    ],
+    "additionalDirectories": [
+      "c:\\Projects\\incedo-web-automation\\.github\\workflows"
+    ]
+  }
+}

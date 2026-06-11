@@ -1,0 +1,5 @@
+2026-06-05 18:25:43 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 18:26:43 [error]: Test "Signin with invalid credentials" failed: locator.pressSequentially: Timeout 60000ms exceeded.
+Call log:
+  - waiting for locator('//input[@id=\'Username\']')
+

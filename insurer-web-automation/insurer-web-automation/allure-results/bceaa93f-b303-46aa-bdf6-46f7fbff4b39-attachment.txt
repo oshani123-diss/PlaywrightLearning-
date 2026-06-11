@@ -1,0 +1,10 @@
+2026-06-05 17:02:14 [error]: Test "Verifying Create Insurer Functionality" failed: expect(locator).toContainText(expected) failed
+
+Locator: getByTitle('Selected Insurer')
+Expected substring: "Dr. Tom Kshlerin"
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for getByTitle('Selected Insurer')
+

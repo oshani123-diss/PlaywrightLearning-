@@ -1,0 +1,6 @@
+2026-06-09 09:01:40 [error]: Test "Signin with valid credentials" failed: Login succeeded but did not navigate to Insurer Management page
+
+expect(received).toContain(expected) // indexOf
+
+Expected substring: "Insurer Management"
+Received string:    ""

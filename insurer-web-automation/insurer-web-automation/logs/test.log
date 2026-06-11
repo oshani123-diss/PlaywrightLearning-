@@ -1,0 +1,434 @@
+2026-06-02 16:39:19 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-02 16:39:32 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-02 16:40:44 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-02 16:40:48 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 13:54:25 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 13:54:27 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 14:00:57 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 14:00:59 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 15:43:35 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 15:43:39 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 21:04:39 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 21:04:42 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 22:09:00 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 22:09:02 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 22:10:27 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 22:10:29 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 22:11:21 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 22:11:23 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 22:12:44 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 22:12:46 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 22:20:29 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 22:20:33 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 23:08:49 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 23:08:50 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 23:11:19 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 23:11:22 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 23:15:32 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 23:15:34 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-03 23:18:35 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-03 23:18:37 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 13:38:23 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 13:38:25 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 13:41:26 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 13:41:27 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 13:44:13 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 13:44:14 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:08:38 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:08:40 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:19:39 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:19:40 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:25:47 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:25:49 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:36:25 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:36:28 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:40:23 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:40:25 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:41:50 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:41:51 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:45:46 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:45:51 [info]: Error message received: "
+
+            
+
+            Login failed
+
+        "
+2026-06-04 14:49:15 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:49:17 [info]: Error message received: "Login failed"
+2026-06-04 14:53:30 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 14:53:32 [info]: Error message received: "Login failed"
+2026-06-04 15:00:01 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:00:04 [info]: Error message received: "Login failed"
+2026-06-04 15:26:59 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:27:02 [info]: Error message received: "Login failed"
+2026-06-04 15:36:17 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:36:19 [info]: Error message received: "Login failed"
+2026-06-04 15:41:33 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:41:51 [info]: Error message received: "Login failed"
+2026-06-04 15:45:42 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:45:45 [info]: Error message received: "Login failed"
+2026-06-04 15:53:00 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 15:53:02 [info]: Error message received: "Login failed"
+2026-06-04 16:14:51 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 16:14:54 [info]: Error message received: "Login failed"
+2026-06-04 16:23:06 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 16:23:09 [info]: Error message received: "Login failed"
+2026-06-04 16:26:28 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 16:26:30 [info]: Error message received: "Login failed"
+2026-06-04 17:20:27 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 17:20:28 [info]: Error message received: "Login failed"
+2026-06-04 17:23:59 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 17:24:00 [info]: Error message received: "Login failed"
+2026-06-04 17:29:21 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 17:29:23 [info]: Error message received: "Login failed"
+2026-06-04 17:34:51 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 17:34:54 [info]: Error message received: "Login failed"
+2026-06-04 17:37:26 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 17:37:28 [info]: Error message received: "Login failed"
+2026-06-04 19:03:44 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:03:45 [info]: Error message received: "Login failed"
+2026-06-04 19:13:22 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:13:26 [info]: Error message received: "Login failed"
+2026-06-04 19:25:39 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:25:41 [info]: Error message received: "Login failed"
+2026-06-04 19:35:32 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:35:34 [info]: Error message received: "Login failed"
+2026-06-04 19:45:24 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:45:26 [info]: Error message received: "Login failed"
+2026-06-04 19:54:08 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 19:54:09 [info]: Error message received: "Login failed"
+2026-06-04 20:34:32 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 20:34:34 [info]: Error message received: "Login failed"
+2026-06-04 20:53:49 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 20:53:51 [info]: Error message received: "Login failed"
+2026-06-04 21:34:45 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 21:36:29 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 21:38:06 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-04 21:38:08 [info]: Error message received: "Login failed"
+2026-06-05 06:43:29 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 06:43:31 [info]: Error message received: "Login failed"
+2026-06-05 06:48:01 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 06:48:03 [info]: Error message received: "Login failed"
+2026-06-05 07:02:05 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:02:06 [info]: Error message received: "Login failed"
+2026-06-05 07:23:12 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:23:14 [info]: Error message received: "Login failed"
+2026-06-05 07:28:06 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:28:07 [info]: Error message received: "Login failed"
+2026-06-05 07:33:13 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:33:14 [info]: Error message received: "Login failed"
+2026-06-05 07:40:21 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:40:22 [info]: Error message received: "Login failed"
+2026-06-05 07:45:05 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 07:45:07 [info]: Error message received: "Login failed"
+2026-06-05 09:52:45 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 09:52:49 [info]: Error message received: "Login failed"
+2026-06-05 10:25:17 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 10:25:20 [info]: Error message received: "Login failed"
+2026-06-05 10:27:17 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 10:27:20 [info]: Error message received: "Login failed"
+2026-06-05 10:32:07 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 10:49:38 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 10:49:42 [info]: Error message received: "Login failed"
+2026-06-05 11:01:44 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 11:01:48 [info]: Error message received: "Login failed"
+2026-06-05 11:16:09 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 11:16:13 [info]: Error message received: "Login failed"
+2026-06-05 11:44:07 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 11:44:08 [info]: Error message received: "Login failed"
+2026-06-05 11:48:28 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 11:48:31 [info]: Error message received: "Login failed"
+2026-06-05 12:30:18 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 12:30:20 [info]: Error message received: "Login failed"
+2026-06-05 12:39:53 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 12:39:54 [info]: Error message received: "Login failed"
+2026-06-05 12:46:59 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 12:47:01 [info]: Error message received: "Login failed"
+2026-06-05 13:14:22 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:14:24 [info]: Error message received: "Login failed"
+2026-06-05 13:17:52 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:17:53 [info]: Error message received: "Login failed"
+2026-06-05 13:19:53 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:19:55 [info]: Error message received: "Login failed"
+2026-06-05 13:25:49 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:25:50 [info]: Error message received: "Login failed"
+2026-06-05 13:30:48 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:30:50 [info]: Error message received: "Login failed"
+2026-06-05 13:39:34 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:39:37 [info]: Error message received: "Login failed"
+2026-06-05 13:43:08 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:43:10 [info]: Error message received: "Login failed"
+2026-06-05 13:44:59 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:45:01 [info]: Error message received: "Login failed"
+2026-06-05 13:50:54 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:50:56 [info]: Error message received: "Login failed"
+2026-06-05 13:54:03 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 13:54:05 [info]: Error message received: "Login failed"
+2026-06-05 14:40:06 [error]: Test "Signin with valid credentials" failed: Login succeeded but did not navigate to Insurer Management page
+
+[2mexpect([22m[31mreceived[39m[2m).[22mtoContain[2m([22m[32mexpected[39m[2m) // indexOf[22m
+
+Expected substring: [32m"Insurer Management11"[39m
+Received string:    [31m"- Incedo.Insurer Management"[39m
+2026-06-05 14:40:30 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 14:40:32 [info]: Error message received: "Login failed"
+2026-06-05 14:43:02 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 14:43:04 [info]: Error message received: "Login failed"
+2026-06-05 14:44:16 [error]: Test "Verifying Create Insurer Functionality" failed: [2mexpect([22m[31mlocator[39m[2m).[22mtoContainText[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator: getByTitle('Selected Insurer')
+Expected substring: [32m"John"[39m
+Timeout: 5000ms
+Error: element(s) not found
+
+Call log:
+[2m  - Expect "toContainText" with timeout 5000ms[22m
+[2m  - waiting for getByTitle('Selected Insurer')[22m
+
+2026-06-05 14:53:16 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 14:53:18 [info]: Error message received: "Login failed"
+2026-06-05 14:55:19 [error]: Test "Verifying Create Insurer Functionality" failed: locator.click: Timeout 60000ms exceeded.
+Call log:
+[2m  - waiting for locator('id=btnAddContact')[22m
+[2m    - locator resolved to <button title="Add" type="button" id="btnAddContact" class="btn btn-info btn-sm addbtn">…</button>[22m
+[2m  - attempting click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div class="modal-footer">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div tabindex="-1" role="dialog" aria-modal="true" id="md_dialogWarning" data-bs-keyboard="false" data-bs-backdrop="static" class="modal modal-fade-in-scale show">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 20ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <div class="modal-footer">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is not stable[22m
+[2m  - retrying click action[22m
+[2m    - waiting 100ms[22m
+[2m    - waiting for element to be visible, enabled and stable[22m
+[2m    - element is visible, enabled and stable[22m
+[2m    - scrolling into view if needed[22m
+[2m    - done scrolling[22m
+[2m    - <ul class="warning">…</ul> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m  27 × retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="-1" role="dialog" aria-modal="true" id="md_dialogWarning" data-bs-keyboard="false" data-bs-backdrop="static" class="modal modal-fade-in-scale show">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div class="modal-footer">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="-1" role="dialog" aria-modal="true" id="md_dialogWarning" data-bs-keyboard="false" data-bs-backdrop="static" class="modal modal-fade-in-scale show">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m     - retrying click action[22m
+[2m       - waiting 500ms[22m
+[2m       - waiting for element to be visible, enabled and stable[22m
+[2m       - element is visible, enabled and stable[22m
+[2m       - scrolling into view if needed[22m
+[2m       - done scrolling[22m
+[2m       - <div tabindex="-1" role="dialog" aria-modal="true" id="md_dialogWarning" data-bs-keyboard="false" data-bs-backdrop="static" class="modal modal-fade-in-scale show">…</div> from <div id="modals" b-5q2l7n5lhz="">…</div> subtree intercepts pointer events[22m
+[2m  - retrying click action[22m
+[2m    - waiting 500ms[22m
+
+2026-06-05 14:57:27 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 14:57:29 [info]: Error message received: "Login failed"
+2026-06-05 14:58:28 [error]: Test "Verifying Create Insurer Functionality" failed: [2mexpect([22m[31mlocator[39m[2m).[22mtoHaveValue[2m([22m[32mexpected[39m[2m)[22m failed
+
+Locator:  locator('id=txt_PL_Zip')
+Expected: [32m"99928"[39m
+Received: [31m"99928[7m____           [27m"[39m
+Timeout:  5000ms
+
+Call log:
+[2m  - Expect "toHaveValue" with timeout 5000ms[22m
+[2m  - waiting for locator('id=txt_PL_Zip')[22m
+[2m    2 × locator resolved to <input type="text" maxlength="10" id="txt_PL_Zip" autocomplete="off" data-val-required="Please Enter Zip Code" class="InputZip form-control form-control-sm border-danger ui-autocomplete-input focus.inputmask"/>[22m
+[2m      - unexpected value "99928____           "[22m
+[2m    12 × locator resolved to <input type="text" maxlength="10" id="txt_PL_Zip" autocomplete="off" data-val-required="Please Enter Zip Code" class="InputZip form-control form-control-sm border-danger ui-autocomplete-input focus.inputmask ui-autocomplete-loading"/>[22m
+[2m       - unexpected value "99928____           "[22m
+
+2026-06-05 15:00:18 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:00:22 [info]: Error message received: "Login failed"
+2026-06-05 15:04:50 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:04:51 [info]: Error message received: "Login failed"
+2026-06-05 15:08:34 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:08:35 [info]: Error message received: "Login failed"
+2026-06-05 15:11:53 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:11:54 [info]: Error message received: "Login failed"
+2026-06-05 15:18:00 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:18:02 [info]: Error message received: "Login failed"
+2026-06-05 15:24:32 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:24:33 [info]: Error message received: "Login failed"
+2026-06-05 15:38:03 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:38:06 [info]: Error message received: "Login failed"
+2026-06-05 15:50:36 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 15:50:38 [info]: Error message received: "Login failed"
+2026-06-05 16:00:11 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 16:00:15 [info]: Error message received: "Login failed"

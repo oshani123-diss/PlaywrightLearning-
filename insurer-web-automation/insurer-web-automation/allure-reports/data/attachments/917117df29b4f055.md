@@ -1,0 +1,1131 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: E2E\Insurer\createInsurer.spec.js >> Verifying Create Insurer Functionality
+- Location: tests\E2E\Insurer\createInsurer.spec.js:13:1
+
+# Error details
+
+```
+Error: expect(locator).toContainText(expected) failed
+
+Locator: getByTitle('Selected Insurer')
+Expected substring: "Dr. Tom Kshlerin"
+Error: element(s) not found
+
+Call log:
+  - Expect "toContainText" with timeout 5000ms
+  - waiting for getByTitle('Selected Insurer')
+
+```
+
+```yaml
+- navigation:
+  - link:
+    - /url: "#"
+    - img
+  - heading "Insurer Management" [level=6]
+  - list:
+    - listitem:
+      - button "  Insurer"
+    - listitem:   Business Unit
+    - listitem:   Alerts
+    - listitem:   Agreements
+    - listitem:   Legal Entity
+    - listitem:   Insurer Forms
+  - list:
+    - listitem:  Welcome Gunaseelan
+    - listitem:
+      - link " Sign Out":
+        - /url: /A/insurerweb/security/signout?returnUrl=https://aetqa.ad.infomc.com/A/insurerweb
+- main:
+  - navigation:
+    - button " "
+    - button " Edit" [disabled]
+    - button " Save"
+    - button " Cancel"
+    - button " Delete" [disabled]
+  - tab "  Detail ":
+    - link "  Detail " [expanded]:
+      - /url: "#rP_FormControlsBody"
+      - heading "  Detail " [level=6]
+  - tabpanel "  Detail ":
+    - article:
+      - text: "Insurer Category:"
+      - combobox "Insurer Category:":
+        - option "--- Select One ---"
+        - option "Medicaid Managed Care" [selected]
+        - option "Commercial Managed Care"
+        - option "Employee Assistance Program"
+        - option "Medicare Managed Care"
+        - option "HMO Managed Care"
+        - option "State Medicaid Program"
+        - option "Preferred Provider Organization"
+        - option "Self_insured"
+        - option "Unspecified"
+        - option "Other"
+      - text: "Status:"
+      - combobox "Status:":
+        - option "--- Select One ---"
+        - option "Information Only"
+        - option "Application Pending"
+        - option "Active" [selected]
+        - option "Inactive"
+        - option "Suspended"
+        - option "Terminated"
+        - option "Test Status"
+        - option "All"
+      - button "" [disabled]
+      - text: "Insurer Type 1:"
+      - combobox "Insurer Type 1:":
+        - option "--- Select One ---" [selected]
+        - option "Unspecified"
+        - option "Agriculture, Forestry, Fishing and Hunting"
+        - option "Utilities"
+        - option "Nuclear or Electric Power"
+        - option "Water Supply and Irrigation Systems"
+        - option "Sewage and Waste Management"
+        - option "Construction"
+        - option "Plumbing, Heating, and Air-Conditioning and Refrigeration"
+        - option "Food Services"
+        - option "Alcohol and Tobacco"
+        - option "Printing"
+        - option "Petrochemical Industries"
+        - option "Pharmaceutical and Medical Services"
+        - option "Furniture and Home Furnishings"
+        - option "Computer and Computer Peripheral Equipment and Software"
+        - option "Electrical Services"
+        - option "Machinery, Equipment, and Supplies"
+        - option "Retailers"
+        - option "Air Transportation"
+        - option "Rail Transportation"
+        - option "Trucking"
+        - option "Postal Service"
+        - option "Warehousing and Storage"
+        - option "Broadcasting and Telecommunications"
+        - option "Financial and Banking Activities"
+        - option "Insurance Carriers and Related Activities"
+        - option "Real Estate"
+        - option "Legal Services"
+        - option "Architectural, Engineering, and Related Services"
+        - option "Human Resources and Executive Search Consulting Services"
+        - option "Advertising and Public Relations"
+        - option "Employment Services"
+        - option "Investigation and Security Services"
+        - option "Exterminating and Pest Control Services"
+        - option "Educational Services"
+        - option "Health Care and Veterinary Services"
+        - option "Social Assistance"
+        - option "Arts, Entertainment, and Recreation"
+        - option "Accommodation--Hotels"
+        - option "Personal Care and Death Care Services"
+        - option "Religious Organizations"
+        - option "Civic and Social Organizations"
+        - option "Labor Unions and Similar Labor Organizations"
+        - option "Public Administration"
+        - option "Police, Correctional, Court Systems"
+        - option "Fire Protection"
+        - option "Miscellaneous"
+        - option "CM - Individual Conversion"
+        - option "CM - Pay or Play"
+        - option "CM - Individual Voluntary"
+        - option "CM - Medicaid"
+        - option "CM - Medicare"
+        - option "CM - Small Group"
+        - option "MM - Key Accounts"
+        - option "MM - Select Accounts"
+        - option "MM - Student Health"
+        - option "NA - Aetna Global Benefits"
+        - option "NA - Federal Government Plans"
+        - option "NA - Other Corporate"
+        - option "CM - Small Group LifeCare"
+        - option "CM - Small Group International"
+        - option "MM - Key Accounts LifeCare"
+        - option "MM - Key Accounts International"
+        - option "MM - Select Accounts LifeCare"
+        - option "MM - Select Accounts International"
+        - option "NA - Federal Government Plans LifeCare"
+        - option "NA - Federal Government Plans International"
+        - option "NA - Other Government"
+        - option "NA - Other Government LifeCare"
+        - option "NA - Other Government International"
+        - option "NA - Other Corporate LifeCare"
+        - option "NA - Other Corporate International"
+        - option "ASA - Aetna Signature Administrators"
+        - option "Individual Market"
+        - option "NA - BOA - Bank of America"
+        - option "NA - SRC Direct"
+        - option "01-Agricultural Production - Corps"
+        - option "02-Agricultural Production - Livestock and Animal Specialties"
+        - option "07 - Agricultural Services"
+        - option "08-Forestry"
+        - option "09-Fishing, Hunting and Trapping"
+        - option "10-Metal Mining"
+        - option "12-Coal Mining"
+        - option "13-Oil and Gas Extraction"
+        - option "14-Mining and Quarrying of Nonmetallic Minerals, Except Fuels"
+        - option "15-Building Cnstrctn - General Contractors & Operative Builders"
+        - option "16-Heavy Cnstrctn, Except Building Construction - Contractors"
+        - option "17-Construction - Special Trade Contractors"
+        - option "20-Food and Kindred Products"
+        - option "21-Tobacco Products"
+        - option "22-Textile Mill Products"
+        - option "23-Apparel, Finished Prdcts from Fabrics & Similar Materials"
+        - option "24-Lumber and Wood Products, Except Furniture"
+        - option "25-Furniture and Fixtures"
+        - option "26-Paper and Allied Products"
+        - option "27-Printing, Publishing and Allied Industries"
+        - option "28-Chemicals and Allied Products"
+        - option "29-Petroleum Refining and Related Industries"
+        - option "30-Rubber and Miscellaneous Plastic Products"
+        - option "31-Leather and Leather Products"
+        - option "32-Stone, Clay, Glass, and Concrete Products"
+        - option "33-Primary Metal Industries"
+        - option "34-Fabricated Metal Prdcts, Except Machinery & Transport Eqpmnt"
+        - option "35-Industrial and Commercial Machinery and Computer Equipment"
+        - option "36-Electronic, Elctrcl Eqpmnt & Cmpnts, Excpt Computer Eqpmnt"
+        - option "37-Transportation Equipment"
+        - option "38-Mesr/Anlyz/Cntrl Instrmnts; Photo/Med/Opt Gds; Watchs/Clocks"
+        - option "39-Miscellaneous Manufacturing Industries"
+        - option "40-Railroad Transportation"
+        - option "41-Local, Suburban Transit & Interurbn Hgwy Passenger Transport"
+        - option "42-Motor Freight Transportation"
+        - option "43-United States Postal Service"
+        - option "44-Water Transportation"
+        - option "45-Transportation by Air"
+        - option "46-Pipelines, Except Natural Gas"
+        - option "47-Transportation Services"
+        - option "48-Communications"
+        - option "49-Electric, Gas and Sanitary Services"
+        - option "50-Wholesale Trade - Durable Goods"
+        - option "51-Wholesale Trade - Nondurable Goods"
+        - option "52-Building Matrials, Hrdwr, Garden Supply & Mobile Home Dealrs"
+        - option "53-General Merchandise Stores"
+        - option "54-Food Stores"
+        - option "55-Automotive Dealers and Gasoline Service Stations"
+        - option "56-Apparel and Accessory Stores"
+        - option "57-Home Furniture, Furnishings and Equipment Stores"
+        - option "58-Eating and Drinking Places"
+        - option "59-Miscellaneous Retail"
+        - option "60-Depository Institutions"
+        - option "61-Nondepository Credit Institutions"
+        - option "62-Security & Commodity Brokers, Dealers, Exchanges & Services"
+        - option "63-Insurance Carriers"
+        - option "64-Insurance Agents, Brokers and Service"
+        - option "65-Real Estate"
+        - option "66-Holding and Other Investment Offices"
+        - option "70-Hotels, Rooming Houses, Camps, and Other Lodging Places"
+        - option "72-Personal Services"
+        - option "73-Business Services"
+        - option "75-Automotive Repair, Services and Parking"
+        - option "76-Miscellaneous Repair Services"
+        - option "78-Motion Pictures"
+        - option "79-Amusement and Recreation Services"
+        - option "80-Health Services"
+        - option "81-Legal Services"
+        - option "82-Educational Services"
+        - option "83-Social Services"
+        - option "84-Museums, Art Galleries and Botanical and Zoological Gardens"
+        - option "85-Membership Organizations"
+        - option "87-Engineering, Accounting, Research, Management & Related Svcs"
+        - option "89-Services, Not Elsewhere Classified"
+        - option "91-Executive, Legislative & General Government, Except Finance"
+        - option "92-Justice, Public Order and Safety"
+        - option "93-Public Finance, Taxation and Monetary Policy"
+        - option "94-Administration of Human Resource Programs"
+        - option "95-Administration of Environmental Quality and Housing Programs"
+        - option "96-Administration of Economic Programs"
+        - option "97-National Security and International Affairs"
+        - option "99-Nonclassifiable Establishments"
+      - text: "Insurer Type 2:"
+      - combobox "Insurer Type 2:":
+        - option "--- Select One ---" [selected]
+        - option "Unspecified"
+        - option "Agriculture, Forestry, Fishing and Hunting"
+        - option "Utilities"
+        - option "Nuclear or Electric Power"
+        - option "Water Supply and Irrigation Systems"
+        - option "Sewage and Waste Management"
+        - option "Construction"
+        - option "Plumbing, Heating, and Air-Conditioning and Refrigeration"
+        - option "Food Services"
+        - option "Alcohol and Tobacco"
+        - option "Printing"
+        - option "Petrochemical Industries"
+        - option "Pharmaceutical and Medical Services"
+        - option "Furniture and Home Furnishings"
+        - option "Computer and Computer Peripheral Equipment and Software"
+        - option "Electrical Services"
+        - option "Machinery, Equipment, and Supplies"
+        - option "Retailers"
+        - option "Air Transportation"
+        - option "Rail Transportation"
+        - option "Trucking"
+        - option "Postal Service"
+        - option "Warehousing and Storage"
+        - option "Broadcasting and Telecommunications"
+        - option "Financial and Banking Activities"
+        - option "Insurance Carriers and Related Activities"
+        - option "Real Estate"
+        - option "Legal Services"
+        - option "Architectural, Engineering, and Related Services"
+        - option "Human Resources and Executive Search Consulting Services"
+        - option "Advertising and Public Relations"
+        - option "Employment Services"
+        - option "Investigation and Security Services"
+        - option "Exterminating and Pest Control Services"
+        - option "Educational Services"
+        - option "Health Care and Veterinary Services"
+        - option "Social Assistance"
+        - option "Arts, Entertainment, and Recreation"
+        - option "Accommodation--Hotels"
+        - option "Personal Care and Death Care Services"
+        - option "Religious Organizations"
+        - option "Civic and Social Organizations"
+        - option "Labor Unions and Similar Labor Organizations"
+        - option "Public Administration"
+        - option "Police, Correctional, Court Systems"
+        - option "Fire Protection"
+        - option "Miscellaneous"
+        - option "CM - Individual Conversion"
+        - option "CM - Pay or Play"
+        - option "CM - Individual Voluntary"
+        - option "CM - Medicaid"
+        - option "CM - Medicare"
+        - option "CM - Small Group"
+        - option "MM - Key Accounts"
+        - option "MM - Select Accounts"
+        - option "MM - Student Health"
+        - option "NA - Aetna Global Benefits"
+        - option "NA - Federal Government Plans"
+        - option "NA - Other Corporate"
+        - option "CM - Small Group LifeCare"
+        - option "CM - Small Group International"
+        - option "MM - Key Accounts LifeCare"
+        - option "MM - Key Accounts International"
+        - option "MM - Select Accounts LifeCare"
+        - option "MM - Select Accounts International"
+        - option "NA - Federal Government Plans LifeCare"
+        - option "NA - Federal Government Plans International"
+        - option "NA - Other Government"
+        - option "NA - Other Government LifeCare"
+        - option "NA - Other Government International"
+        - option "NA - Other Corporate LifeCare"
+        - option "NA - Other Corporate International"
+        - option "ASA - Aetna Signature Administrators"
+        - option "Individual Market"
+        - option "NA - BOA - Bank of America"
+        - option "NA - SRC Direct"
+        - option "01-Agricultural Production - Corps"
+        - option "02-Agricultural Production - Livestock and Animal Specialties"
+        - option "07 - Agricultural Services"
+        - option "08-Forestry"
+        - option "09-Fishing, Hunting and Trapping"
+        - option "10-Metal Mining"
+        - option "12-Coal Mining"
+        - option "13-Oil and Gas Extraction"
+        - option "14-Mining and Quarrying of Nonmetallic Minerals, Except Fuels"
+        - option "15-Building Cnstrctn - General Contractors & Operative Builders"
+        - option "16-Heavy Cnstrctn, Except Building Construction - Contractors"
+        - option "17-Construction - Special Trade Contractors"
+        - option "20-Food and Kindred Products"
+        - option "21-Tobacco Products"
+        - option "22-Textile Mill Products"
+        - option "23-Apparel, Finished Prdcts from Fabrics & Similar Materials"
+        - option "24-Lumber and Wood Products, Except Furniture"
+        - option "25-Furniture and Fixtures"
+        - option "26-Paper and Allied Products"
+        - option "27-Printing, Publishing and Allied Industries"
+        - option "28-Chemicals and Allied Products"
+        - option "29-Petroleum Refining and Related Industries"
+        - option "30-Rubber and Miscellaneous Plastic Products"
+        - option "31-Leather and Leather Products"
+        - option "32-Stone, Clay, Glass, and Concrete Products"
+        - option "33-Primary Metal Industries"
+        - option "34-Fabricated Metal Prdcts, Except Machinery & Transport Eqpmnt"
+        - option "35-Industrial and Commercial Machinery and Computer Equipment"
+        - option "36-Electronic, Elctrcl Eqpmnt & Cmpnts, Excpt Computer Eqpmnt"
+        - option "37-Transportation Equipment"
+        - option "38-Mesr/Anlyz/Cntrl Instrmnts; Photo/Med/Opt Gds; Watchs/Clocks"
+        - option "39-Miscellaneous Manufacturing Industries"
+        - option "40-Railroad Transportation"
+        - option "41-Local, Suburban Transit & Interurbn Hgwy Passenger Transport"
+        - option "42-Motor Freight Transportation"
+        - option "43-United States Postal Service"
+        - option "44-Water Transportation"
+        - option "45-Transportation by Air"
+        - option "46-Pipelines, Except Natural Gas"
+        - option "47-Transportation Services"
+        - option "48-Communications"
+        - option "49-Electric, Gas and Sanitary Services"
+        - option "50-Wholesale Trade - Durable Goods"
+        - option "51-Wholesale Trade - Nondurable Goods"
+        - option "52-Building Matrials, Hrdwr, Garden Supply & Mobile Home Dealrs"
+        - option "53-General Merchandise Stores"
+        - option "54-Food Stores"
+        - option "55-Automotive Dealers and Gasoline Service Stations"
+        - option "56-Apparel and Accessory Stores"
+        - option "57-Home Furniture, Furnishings and Equipment Stores"
+        - option "58-Eating and Drinking Places"
+        - option "59-Miscellaneous Retail"
+        - option "60-Depository Institutions"
+        - option "61-Nondepository Credit Institutions"
+        - option "62-Security & Commodity Brokers, Dealers, Exchanges & Services"
+        - option "63-Insurance Carriers"
+        - option "64-Insurance Agents, Brokers and Service"
+        - option "65-Real Estate"
+        - option "66-Holding and Other Investment Offices"
+        - option "70-Hotels, Rooming Houses, Camps, and Other Lodging Places"
+        - option "72-Personal Services"
+        - option "73-Business Services"
+        - option "75-Automotive Repair, Services and Parking"
+        - option "76-Miscellaneous Repair Services"
+        - option "78-Motion Pictures"
+        - option "79-Amusement and Recreation Services"
+        - option "80-Health Services"
+        - option "81-Legal Services"
+        - option "82-Educational Services"
+        - option "83-Social Services"
+        - option "84-Museums, Art Galleries and Botanical and Zoological Gardens"
+        - option "85-Membership Organizations"
+        - option "87-Engineering, Accounting, Research, Management & Related Svcs"
+        - option "89-Services, Not Elsewhere Classified"
+        - option "91-Executive, Legislative & General Government, Except Finance"
+        - option "92-Justice, Public Order and Safety"
+        - option "93-Public Finance, Taxation and Monetary Policy"
+        - option "94-Administration of Human Resource Programs"
+        - option "95-Administration of Environmental Quality and Housing Programs"
+        - option "96-Administration of Economic Programs"
+        - option "97-National Security and International Affairs"
+        - option "99-Nonclassifiable Establishments"
+      - text: "Name:"
+      - textbox "Name:": Dr. Tom Kshlerin
+      - text: "Abbreviated Name:"
+      - textbox "Abbreviated Name:": Dr. Tom Kshlerin
+      - text: "External ID:"
+      - textbox "External ID:"
+      - text: "Vendor ID:"
+      - textbox "Vendor ID:"
+      - text: "Date of Incorporation:"
+      - textbox "Date of Incorporation:"
+      - text: "Tax Status:"
+      - combobox "Tax Status:":
+        - option "--- Select One ---" [selected]
+        - option "For Profit"
+        - option "Not For Profit"
+        - option "Require Modifiers 3 & 4 for All Claims"
+        - option "Unspecified"
+        - option "Other"
+      - text: "Code:"
+      - textbox "Code:"
+      - text: "Legal Entity:"
+      - combobox "Legal Entity:":
+        - option "--- Select One ---" [selected]
+        - option "Horizon Behavioral Services,LLC"
+        - option "Health and Human Resources Center, Inc"
+        - option "The Vasquez Group, Inc."
+        - option "Resources for Living, LLC."
+        - option "Work and Family Benefits, Inc."
+        - option "Aetna Behavioral Health, LLC"
+        - option "HYD1"
+        - option "Frank's Legal Entity"
+        - option "saftesting17915-217"
+        - option "Frank's Second Legal Entity"
+        - option "SafTestingKnoxKeene"
+        - option "Frank Test Legal Entity 60 Characters 1234567890 1234567890"
+        - option "kentest legal entity"
+        - option "kentest legal entity"
+        - option "Port"
+        - option "INPD27425REG"
+        - option "TestqaDF"
+        - option "DF test"
+        - option "1&1 Internet, Inc."
+        - option "INPD54540test"
+        - option "test1234DF"
+        - option "test1234DF"
+        - option "test1234DF"
+        - option "test1234DF"
+        - option "test1234DF"
+        - option "hyd1"
+        - option "Bank Profile"
+        - option "Dulaj adhoc"
+        - option "dulaj adhoc 2"
+        - option "testLE"
+        - option "legalEntityBank"
+        - option "testLE1"
+        - option "SapTest"
+        - option "Sa123"
+        - option "NewSa"
+        - option "Stephen Test Legal Entity"
+        - option "NewLegal123"
+      - text: "Last Modification:"
+  - complementary:
+    - tab " Sites ":
+      - link " Sites " [expanded]:
+        - /url: "#rP_siteListBody"
+        - heading " Sites " [level=6]
+    - tabpanel " Sites ":
+      - article:
+        - text: Show
+        - combobox "Show entries":
+          - option "10" [selected]
+          - option "25"
+          - option "50"
+          - option "100"
+        - text: "entries Search:"
+        - searchbox "Search:"
+        - table:
+          - rowgroup:
+            - row "Address Master Site":
+              - columnheader "Address"
+              - columnheader "Master Site"
+          - rowgroup:
+            - row "102 Shivaji street ":
+              - cell "102 Shivaji street"
+              - cell ""
+        - status: Showing 1 to 1 of 1 entries
+        - list:
+          - listitem:
+            - link "Previous":
+              - /url: "#"
+          - listitem:
+            - link "1":
+              - /url: "#"
+          - listitem:
+            - link "Next":
+              - /url: "#"
+        - button ""
+        - button ""
+        - button ""
+  - complementary:
+    - tab " Address Types ":
+      - link " Address Types " [expanded]:
+        - /url: "#is_addressTypeBody"
+        - heading " Address Types " [level=6]
+    - tabpanel " Address Types ":
+      - article:
+        - table:
+          - rowgroup:
+            - row "Address Type":
+              - columnheader "Address Type"
+          - rowgroup:
+            - row "Physical Address":
+              - cell "Physical Address"
+        - status: Showing 1 to 1 of 1 entries
+  - complementary:
+    - tab " Site Information ":
+      - link " Site Information " [expanded]:
+        - /url: "#rP_siteDetailsBody"
+        - heading " Site Information " [level=6]
+    - tabpanel " Site Information ":
+      - article:
+        - text: "Type:"
+        - combobox "Type:" [disabled]:
+          - option "--Select Address--"
+          - option "Physical Address" [selected]
+          - option "Mailing Address" [disabled]
+          - option "Billing Address" [disabled]
+          - option "Tax Address" [disabled]
+        - combobox [disabled]:
+          - option "--Select Address--" [selected]
+        - text: "Address 1:"
+        - textbox: 102 Shivaji street
+        - text: "Address 2:"
+        - textbox
+        - text: "Address 3:"
+        - textbox
+        - text: "City:"
+        - textbox "City:": Ward Cove
+        - text: "State:"
+        - combobox "State:" [disabled]:
+          - option "--- Select One ---"
+          - option "Alabama"
+          - option "Alaska" [selected]
+          - option "Alberta"
+          - option "Arizona"
+          - option "Arkansas"
+          - option "British Columbia"
+          - option "California"
+          - option "Colorado"
+          - option "Connecticut"
+          - option "Delaware"
+          - option "District of Columbia"
+          - option "Florida"
+          - option "Georgia"
+          - option "Guam"
+          - option "Hawaii"
+          - option "Idaho"
+          - option "Illinois"
+          - option "Indiana"
+          - option "Iowa"
+          - option "Kansas"
+          - option "Kentucky"
+          - option "LABRADOR"
+          - option "Louisiana"
+          - option "Maine"
+          - option "Manitoba"
+          - option "Marshall Islands"
+          - option "Maryland"
+          - option "Massachusetts"
+          - option "Michigan"
+          - option "Minnesota"
+          - option "Mississippi"
+          - option "Missouri"
+          - option "Montana"
+          - option "Nebraska"
+          - option "Nevada"
+          - option "New Brunswick"
+          - option "NEW FOUNDLAND"
+          - option "New Hampshire"
+          - option "New Jersey"
+          - option "New Mexico"
+          - option "New York"
+          - option "Newfoundland"
+          - option "North Carolina"
+          - option "North Dakota"
+          - option "Northwest Territories"
+          - option "Nova Scotia"
+          - option "Nunavat"
+          - option "Ohio"
+          - option "Oklahoma"
+          - option "Ontario"
+          - option "Oregon"
+          - option "Palau"
+          - option "Pennsylvania"
+          - option "Prince Edward Island"
+          - option "Puerto Rico"
+          - option "Quebec"
+          - option "Rhode Island"
+          - option "Saskatchewan"
+          - option "South Carolina"
+          - option "South Dakota"
+          - option "Tennessee"
+          - option "Texas"
+          - option "Utah"
+          - option "Vermont"
+          - option "Virgin Islands"
+          - option "Virginia"
+          - option "Washington"
+          - option "West Virginia"
+          - option "Wisconsin"
+          - option "Wyoming"
+          - option "Yukon"
+        - text: "Zip Code:"
+        - textbox "Zip Code:": 99928____
+        - button "" [disabled]
+        - text: "County:"
+        - textbox: "130"
+        - text: "Country:"
+        - combobox [disabled]:
+          - option "--- Select One ---"
+          - option "ALBANIA"
+          - option "ALGERIA"
+          - option "AMERICAN SAMOA"
+          - option "ANDORRA"
+          - option "ANGOLA"
+          - option "ANGUILLA"
+          - option "ANTARTICA"
+          - option "ANTIGUA AND BARBUDA"
+          - option "ARGENTINA"
+          - option "ARMENIA"
+          - option "ARUBA"
+          - option "AUSTRALIA"
+          - option "AUSTRIA"
+          - option "AZERBAIJAN"
+          - option "BAHAMAS"
+          - option "BAHRAIN"
+          - option "BANGLADESH"
+          - option "BARBODAS"
+          - option "BELARUS"
+          - option "BELGIUM"
+          - option "BELIZE"
+          - option "BENIN"
+          - option "BERMUDA"
+          - option "BHUTAN"
+          - option "BOLIVIA"
+          - option "BOSNIA AND HERZIGOVINA"
+          - option "BOTSWANA"
+          - option "BOUVET ISLAND"
+          - option "BRAZIL"
+          - option "BRITISH INDIAN OCEAN TERRITORY"
+          - option "BRUNEI DARUSSALAM"
+          - option "BULGARIA"
+          - option "BURKINA FASO"
+          - option "BURUNDI"
+          - option "CAMBODIA"
+          - option "CAMEROON"
+          - option "CANADA"
+          - option "CAPE VERDE"
+          - option "CAYMAN ISLANDS"
+          - option "CENTRAL AFRICAN REPUBLIC"
+          - option "CHAD"
+          - option "CHILE"
+          - option "CHINA"
+          - option "CHRISTMAS ISLAND"
+          - option "COCOS(KEELING) ISLANDS"
+          - option "COLOMBIA"
+          - option "COMOROS"
+          - option "CONGO"
+          - option "CONGO,THE DEMOCRATIC REPUBLIC OF THE"
+          - option "COOK ISALANDS"
+          - option "COSTA RICA"
+          - option "COTE D\"IVOIRE"
+          - option "CROATIA"
+          - option "CUBA"
+          - option "CYPRUS"
+          - option "CZEC REPUBLIC"
+          - option "DENMARK"
+          - option "DJIBOUTI"
+          - option "DOMINICA"
+          - option "DOMINICAN REPUBLIC"
+          - option "EAST TIMOR"
+          - option "ECUADOR"
+          - option "EGYPT"
+          - option "EL SALVADOR"
+          - option "EQUATORIAL GUINEA"
+          - option "ERITREA"
+          - option "ESTONIA"
+          - option "ETHIOPIA"
+          - option "FALKLAND ISLANDS(MALVINAS)"
+          - option "FAROE ISLANDS"
+          - option "FIJI"
+          - option "FINLAND"
+          - option "FRANCE"
+          - option "FRENCH GUIANA"
+          - option "FRENCH POLYNESIA"
+          - option "FRENCH SOUTHERN TERRITORIES"
+          - option "GABON"
+          - option "GAMBIA"
+          - option "GEORGIA"
+          - option "GERMANY"
+          - option "GHANA"
+          - option "GIBRALTAR"
+          - option "GREECE"
+          - option "GREENLAND"
+          - option "GRENADA"
+          - option "GUADELOUPE"
+          - option "GUAM"
+          - option "GUATEMALA"
+          - option "GUINEA"
+          - option "GUINEA-BISSAU"
+          - option "GUYANA"
+          - option "HAITI"
+          - option "HEARD ISLAND AND MCDONALD ISLANDS"
+          - option "HOLY SEE(VATICAN CITY STATE)"
+          - option "HONDURAS"
+          - option "HONGKONG"
+          - option "HUNGARY"
+          - option "ICELAND"
+          - option "INDIA"
+          - option "INDONESIA"
+          - option "IRAN,ISLAMIC REPUBLIC OF"
+          - option "IRAQ"
+          - option "IRELAND"
+          - option "ISRAEL"
+          - option "ITALY"
+          - option "JAMAICA"
+          - option "JAPAN"
+          - option "JORDAN"
+          - option "KAZAKSTAN"
+          - option "KENYA"
+          - option "KIRIBATI"
+          - option "KOREA,DEMOCRATIC PEOPLE\"S REPUBLIC OF"
+          - option "KOREA,REPUBLIC OF"
+          - option "KUWAIT"
+          - option "KYRGYZSTAN"
+          - option "LAO PEOPLE\"S DEMOCRATIC REPBLIC"
+          - option "LATVIA"
+          - option "LEBANON"
+          - option "LESOTHO"
+          - option "LIBERIA"
+          - option "LIBYAN ARAB JAMAHIRIYA"
+          - option "LIECHTENSTEIN"
+          - option "LITHUANIA"
+          - option "LUXEMBOURG"
+          - option "MACAU"
+          - option "MACEDONIA,THE FORMER YOGOSLAV REPUBLIC OF"
+          - option "MADAGASCAR"
+          - option "MALAWI"
+          - option "MALAYSIA"
+          - option "MALDIVES"
+          - option "MALI"
+          - option "MALTA"
+          - option "MARSHALL ISLANDS"
+          - option "MARTINIQUE"
+          - option "MAURITANIA"
+          - option "MAURITIUS"
+          - option "MAYOTTE"
+          - option "MEXICO"
+          - option "MICRONESIA,FEDERATED STATES OF"
+          - option "MOLDOVA,REPUBLIC OF"
+          - option "MONACO"
+          - option "MONGOLIA"
+          - option "MONTSERRAT"
+          - option "MOROCCO"
+          - option "MOZAMBIQUE"
+          - option "MYANMAR"
+          - option "NAMIBIA"
+          - option "NAURU"
+          - option "NEPAL"
+          - option "NETHERLANDS"
+          - option "NETHERLANDS ANTILLES"
+          - option "NEW CALEDONIA"
+          - option "NEW ZEALAND"
+          - option "NACARAGUA"
+          - option "NIGER"
+          - option "NIGERIA"
+          - option "NIUE"
+          - option "NORFOLK ISLAND"
+          - option "NORTHERN MARIANA ISLANDS"
+          - option "NORWAY"
+          - option "OMAN"
+          - option "PAKISTAN"
+          - option "PALAU"
+          - option "PALESTINIAN TERRITORY,OCCUOIED"
+          - option "PANAMA"
+          - option "PAPUA NEW GUINEA"
+          - option "PARAGUAY"
+          - option "PERU"
+          - option "PHILIPPINES"
+          - option "PITCAIRN"
+          - option "POLAND"
+          - option "PORTUGAL"
+          - option "PUERTO RICO"
+          - option "QATAR"
+          - option "REUNION"
+          - option "ROMANIA"
+          - option "RUSSIAN FEDERATION"
+          - option "RWANDA"
+          - option "SAINT HELENA"
+          - option "SAINT KITTS AND NEVIS"
+          - option "SAINT LUCIA"
+          - option "SAINT PIERRE AND MIQUELON"
+          - option "SAINT VINCENT AND THE GRENADINES"
+          - option "SAMOA"
+          - option "SAN MARINO"
+          - option "SAO TOME AND PRINCIPE"
+          - option "SAUDI ARABIA"
+          - option "SENEGAL"
+          - option "SEYCHELLES"
+          - option "SIERRA LEONE"
+          - option "SINGAPORE"
+          - option "SLOVAKIA"
+          - option "SLOVENIA"
+          - option "SOLOMON ISLANDS"
+          - option "SOMALIA"
+          - option "SOUTH AFRICA"
+          - option "SOUTH GEORGIA AND THE SOUTH SANDWICH ISLANDS"
+          - option "SPAIN"
+          - option "SRI LANKA"
+          - option "SUDAN"
+          - option "SURINAME"
+          - option "SVALBARD AND JAN MAYEN"
+          - option "SWAZILAND"
+          - option "SWEDEN"
+          - option "SWITZERLAND"
+          - option "SYRIAN ARAB REPUBLIC"
+          - option "TAIWAN,PROVINCE OF CHINA"
+          - option "TAJISKISTAN"
+          - option "TANZANIA,UNITED REPUBLIC OF"
+          - option "THAILAND"
+          - option "TOGO"
+          - option "TOKELAU"
+          - option "TONGA"
+          - option "TRINIDAD AND TOBAGO"
+          - option "TUNISIA"
+          - option "TURKEY"
+          - option "TURKMENISTAN"
+          - option "TURKS AND CAICOS ISLANDS"
+          - option "TUVALU"
+          - option "UGANDA"
+          - option "UKRAINE"
+          - option "UNITED ARAB EMIRATES"
+          - option "UNITED KINGDOM"
+          - option "UNITED STATES" [selected]
+          - option "UNITED STATES MINOR OUTLYING ISLANDS"
+          - option "URUGUAY"
+          - option "UZBEKISTAN"
+          - option "VANUATU"
+          - option "VENEZUELA"
+          - option "VIETNAM"
+          - option "VIRGIN ISLANDS,BRITISH"
+          - option "VIRGIN ISLANDS,U.S."
+          - option "WALLIS AND FUTANA"
+          - option "WESTERN SAHARA"
+          - option "YEMEN"
+          - option "YUGOSLAVIA"
+          - option "ZAMBIA"
+          - option "ZIMBABWE"
+        - text: "Phone:"
+        - textbox "Phone:"
+        - text: "Ext:"
+        - textbox "Ext:"
+        - checkbox "Payment Site" [disabled]
+        - text: Payment Site
+        - checkbox "Inactive Site" [disabled]
+        - text: Inactive Site
+        - checkbox "Master Site" [checked] [disabled]
+        - text: "Master Site Notes:"
+        - textbox "Notes:"
+        - button "  Save" [disabled]
+        - button " Cancel" [disabled]
+  - complementary:
+    - tab " Contacts ":
+      - link " Contacts " [expanded]:
+        - /url: .Contact_multi-collapse
+        - heading " Contacts " [level=6]
+    - tabpanel " Contacts ":
+      - article:
+        - checkbox "View all Contacts for all Sites"
+        - text: View all Contacts for all Sites Show
+        - combobox "Show entries":
+          - option "10" [selected]
+          - option "25"
+          - option "50"
+          - option "100"
+        - text: "entries Search:"
+        - searchbox "Search:"
+        - table:
+          - rowgroup:
+            - 'row "Name: activate to sort column ascending Type Phone"':
+              - 'columnheader "Name: activate to sort column ascending"': Name 
+              - columnheader "Type"
+              - columnheader "Phone"
+          - rowgroup:
+            - row:
+              - cell
+              - cell
+              - cell
+        - status: Showing 1 to 1 of 1 entries
+        - list:
+          - listitem:
+            - link "Previous":
+              - /url: "#"
+          - listitem:
+            - link "1":
+              - /url: "#"
+          - listitem:
+            - link "Next":
+              - /url: "#"
+        - button "" [disabled]
+        - button "" [disabled]
+        - button "" [disabled]
+  - complementary:
+    - tab " Contact Information ":
+      - link " Contact Information " [expanded]:
+        - /url: "#ContactDetailsBody"
+        - heading " Contact Information " [level=6]
+    - tabpanel " Contact Information ":
+      - article:
+        - text: "Salutation :"
+        - combobox "Salutation :":
+          - option "--- Select One ---" [selected]
+          - option "Dr"
+          - option "Miss"
+          - option "Mr"
+          - option "Mrs"
+          - option "Ms"
+          - option "The Great One"
+        - text: "First Name:"
+        - textbox "First Name:"
+        - text: "Last Name:"
+        - textbox "Last Name:": Howell
+        - text: "Initial:"
+        - textbox "Initial:"
+        - text: "Type:"
+        - combobox "Type:":
+          - option "--- Select One ---"
+          - option "Clinical"
+          - option "Primary Administrative"
+          - option "HR / Benefits Administrator"
+          - option "Primary Clinical"
+          - option "Chief Executive Officer"
+          - option "Chief Operating Officer"
+          - option "Chief Financial Officer"
+          - option "Executive Director"
+          - option "Medical Director"
+          - option "Administrative"
+          - option "Claims" [selected]
+          - option "Utilization Review"
+          - option "Provider Relations"
+          - option "Evaluator"
+          - option "Insurance ID#"
+          - option "Internal Account Executive"
+          - option "Work Life Contact"
+          - option "Billing"
+          - option "Knox Keene contact"
+          - option "Threat of Violence contact"
+          - option "Broker"
+          - option "Third Party Administrator"
+          - option "Other"
+        - text: "Title:"
+        - textbox "Title:"
+        - text: "Degree:"
+        - combobox "Degree:":
+          - option "--- Select One ---" [selected]
+          - option "Unspecified"
+          - option "PN"
+          - option "CP"
+          - option "LPC"
+          - option "MED"
+          - option "SW"
+          - option "MA"
+          - option "MT"
+          - option "MFCC"
+          - option "EDD"
+          - option "EDE"
+          - option "MN"
+          - option "DSW"
+          - option "MS"
+          - option "MSN"
+          - option "MSSW"
+          - option "MSW"
+          - option "PHD"
+          - option "PSYD"
+          - option "LCSW"
+          - option "LMFT"
+          - option "MD"
+          - option "Other"
+        - text: "Work Phone:"
+        - textbox "Work Phone:"
+        - text: "Ext:"
+        - textbox "Ext:"
+        - text: "Other Phone:"
+        - combobox "Other Phone:":
+          - option "--- Select One ---" [selected]
+          - option "Mobile/Cellular"
+          - option "Pager"
+          - option "FAX"
+          - option "Private line"
+          - option "Unspecified"
+          - option "Other"
+        - textbox
+        - text: "Ext:"
+        - textbox "Ext:"
+        - text: "Fax:"
+        - textbox "Fax:"
+        - text: "Email:"
+        - textbox "Email:"
+        - text: "Web:"
+        - textbox "Web:"
+        - text: "Notes:"
+        - textbox
+        - checkbox "Link to all sites" [checked]
+        - text: "Link to all sites Sites: Search:"
+        - searchbox "Search:"
+        - table:
+          - rowgroup:
+            - row "Address":
+              - columnheader "Address"
+          - rowgroup:
+            - row "102 Shivaji street":
+              - cell "102 Shivaji street"
+        - list:
+          - listitem:
+            - link "Previous":
+              - /url: "#"
+          - listitem:
+            - link "1":
+              - /url: "#"
+          - listitem:
+            - link "Next":
+              - /url: "#"
+        - button "  Save"
+        - button " Cancel"
+  - complementary:
+    - tab "@ Alias ":
+      - link "@ Alias " [expanded]:
+        - /url: "#al_listBody"
+        - heading "@ Alias " [level=6]
+    - tabpanel "@ Alias ":
+      - article:
+        - list:
+          - listitem: acme
+        - button ""
+        - button ""
+        - button ""
+  - complementary:
+    - tab " Alias Information ":
+      - link " Alias Information " [expanded]:
+        - /url: "#al_aliasInfoDetailsBody"
+        - heading " Alias Information " [level=6]
+    - tabpanel " Alias Information ":
+      - article:
+        - text: Name
+        - textbox "Name"
+        - text: Notes
+        - textbox "Notes"
+        - button "  Save" [disabled]
+        - button " Cancel" [disabled]
+- contentinfo:
+  - text:  Version-1.0 © 2022 - All righs reserved.
+  - img
+- status
+```
+
+# Test source
+
+```ts
+  1  | const { test, expect } = require('@playwright/test');
+  2  | const { BaseTest } = require('../../BaseTest');
+  3  | const config = require('../../../config/insurer.config');
+  4  | const { NETWORK_IDLE_TIMEOUT } = config.timeouts;
+  5  | const { insurerData } = require('../../../testData/CreateInsurerData');
+  6  | const queries = require('../../../utils/queries');
+  7  | const logger = require('../../../utils/logger');
+  8  | 
+  9  | class CreateInsurer extends BaseTest {}
+  10 | 
+  11 | const spec = new CreateInsurer();
+  12 | 
+  13 | test('Verifying Create Insurer Functionality', async () => {
+  14 |   try {
+  15 |     // Insurer
+  16 |     await spec.insurerPage.getAddButton.waitFor({ state: 'visible', timeout: NETWORK_IDLE_TIMEOUT });
+  17 |     await spec.insurerPage.getAddButton.click();
+  18 |     await spec.insurerPage.selectInsurerCategory(insurerData.insurerCategory);
+  19 |     await spec.insurerPage.getInsurerName.fill(insurerData.insurerName);
+  20 | 
+  21 |     // Site Information
+  22 |     await spec.insurerPage.getSiteAddButton.click();
+  23 |     await spec.insurerPage.selectAddressType(insurerData.site.type);
+  24 |     await spec.insurerPage.getAddress1.fill(insurerData.site.address1);
+  25 |     await spec.insurerPage.getCity.fill(insurerData.site.city);
+  26 |     await spec.insurerPage.selectState(insurerData.site.state);
+  27 |     await spec.insurerPage.getZipCode.pressSequentially(insurerData.site.zipCode);
+  28 |     await spec.insurerPage.getSiteInformationSaveButton.click();
+  29 | 
+  30 |     // Contact Information
+  31 |     await spec.insurerPage.getAddContactButton.click();
+  32 |     await spec.insurerPage.getContactFirstName.fill(insurerData.contact.firstName);
+  33 |     await spec.insurerPage.getContactFirstName.press('Tab');
+  34 |     await spec.insurerPage.getContactLastName.fill(insurerData.contact.lastName);
+  35 |     await spec.insurerPage.selectContactType(insurerData.contact.type);
+  36 |     await spec.insurerPage.getContactInformationSaveButton.click();
+  37 | 
+  38 |     // Alias
+  39 |     await spec.insurerPage.getAliasAddButton.click();
+  40 |     await spec.insurerPage.getAliasName.fill(insurerData.alias);
+  41 |     await spec.insurerPage.getAliasSaveButton.click();
+  42 | 
+  43 |     // Global Save & Assertions
+  44 |     await spec.insurerPage.getGlobalSaveButton.click();
+> 45 |     await expect(spec.insurerPage.getNewlyCreatedInsurerID).toContainText(insurerData.insurerName);
+     |                                                             ^ Error: expect(locator).toContainText(expected) failed
+  46 | 
+  47 |     const result = await spec.pool.request()
+  48 |       .input('name', insurerData.insurerName)
+  49 |       .query(queries.getInsurerByName);
+  50 |     expect(result.recordset[0].Name).toBe(insurerData.insurerName);
+  51 |   } catch (error) {
+  52 |     logger.error(`Test "Verifying Create Insurer Functionality" failed: ${error.message}`);
+  53 |     throw error;
+  54 |   }
+  55 | });
+  56 | 
+```

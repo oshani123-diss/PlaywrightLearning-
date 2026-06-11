@@ -1,0 +1,2 @@
+2026-06-05 18:23:01 [info]: Signing in with invalid credentials: username=test, password=pis
+2026-06-05 18:23:01 [error]: Test "Signin with invalid credentials" failed: locator.pressSequentially: Target page, context or browser has been closed

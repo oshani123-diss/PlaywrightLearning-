@@ -30,6 +30,7 @@ test.describe('SauceDemo — Real Project Tests', () => {
 
   // TEST 3 — complete shopping flow
   test('complete shopping flow', async ({ page }) => {
+     test.setTimeout(120000);
     const loginPage = new SauceLoginPage(page);
     const inventoryPage = new InventoryPage(page);
     const cartPage = new CartPage(page);

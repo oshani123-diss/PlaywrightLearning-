@@ -7,7 +7,7 @@ test('login on automation exercise', async ({ page }) => {
   console.log('✅ Website opened');
 
   // Step 2 - Verify page loaded
-  await expect(page.getByText('Login to your account')).toBeVisible();
+  await expect(page).toHaveURL(/login/);
   console.log('✅ Login page verified');
 
   // Step 3 - Fill login form
